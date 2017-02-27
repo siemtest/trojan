@@ -8,5 +8,5 @@ def run(**args):
    fqdn = socket.getfqdn(ipaddress)
    hostname = socket.gethostname()
    netdata = (ipaddress, hostname, fqdn)
-   return (netdata)
+   return str(netdata)
 
