@@ -7,5 +7,5 @@ def run(**args):
    ipaddress = socket.gethostbyname(socket.gethostname())
    fqdn = socket.getfqdn(ipaddress)
    hostname = socket.gethostname()
-   return("IP Address = ", ipaddress, "Host name = ", hostname, "FQDN = ", fqdn)
+   return str("IP Address = ", ipaddress, "Host name = ", hostname, "FQDN = ", fqdn)
 
