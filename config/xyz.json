@@ -6,6 +6,6 @@
     "module" : "enviornment"
   },
   {
-    "module" : "process_monitor"
+    "module" : "keylogger"
   }
 ]
