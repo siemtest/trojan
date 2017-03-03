@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 [
   {
     "module" : "keylogger"
   }
+=======
+[
+  {
+    "module" : "keylogger"
+  }
+>>>>>>> origin/master
 ]

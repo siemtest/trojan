@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 [
   {
     "module" : "netdata"
   }
+=======
+[
+  {
+    "module" : "netdata"
+  }
+>>>>>>> origin/master
 ]

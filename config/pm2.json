@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 [
   {
     "module" : "pm2"
   }
+=======
+[
+  {
+    "module" : "pm2"
+  }
+>>>>>>> origin/master
 ]
